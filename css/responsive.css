@@ -1,0 +1,147 @@
+@media (max-width: 1199px) {
+    .banner__title { font-size: 44px; }
+
+    .posts {
+        padding: 60px 10px;
+    }
+
+    .links {
+        padding: 40px 10px;
+    }
+
+    .links__wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links__screen {
+        display: none;
+    }
+
+    .links__content {
+        min-width: 550px;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner__content { width: 50%; }
+    .banner__title { font-size: 40px; }
+
+    .posts {
+        padding: 40px 10px;
+    }
+
+    .posts__item-small,
+    .posts__item-big {
+        width: 100%;
+        margin: 0 0 20px;
+        height: auto;
+    }
+
+    .posts__item {
+        height: auto;
+    }
+
+    .posts__item-inner {
+        height: 100%;
+    }
+
+    .posts__item-inner p {
+        display: initial;
+    }
+
+    .posts__item-inner h3 {
+        margin: 0 0 20px;
+    }
+
+    .links {
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner__title { font-size: 36px; }
+    .banner__content { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 0 30px; 
+    }
+
+    .banner__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .posts {
+        padding: 30px 10px;
+    }
+
+    .links__content {
+        min-width: 460px;
+        width: auto;
+    }
+
+    .links {
+        padding: 20px 10px;
+    }
+
+    .links__list li {
+        align-items: center;
+    }
+
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .links__list li {
+        position: relative;
+        padding-left: 50px ;
+    }
+
+    .links__list li span {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        padding: 40px 0 20px;
+    }
+
+    .banner__title { font-size: 32px; }
+
+    .banner__content { 
+        align-items: flex-start;
+    }
+
+    .posts {
+        padding: 20px 10px;
+    }
+
+    .links {
+        padding: 10px 10px;
+    }
+
+    .links__content {
+        min-width: auto;
+        /* min-width: 460px; */
+        width: 100%;
+    }
+
+    .links__content-title {
+        display: none;
+    }
+
+    .links__list li p {
+        line-height: 1.5;
+    }
+
+    .links__list li span {
+        margin-right: 15px;
+    }
+}

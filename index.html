@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>citibank test task</title>
+
+    <!-- Stules -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body id="body">
+    <div id="wrapper">
+        <header></header>
+        <main>
+            <div class="banner">
+                <div class="container banner__wrapper">
+                    <div class="banner__content">
+                        <h1 class="banner__title">Banner header</h1>
+                        <p class="banner__content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud</p>
+                    </div>
+
+                    <form action="URL" class="banner__form">
+                        <h3 class="banner__form-title">Request form</h3>
+
+                        <div class="input-container">		
+                            <input id="input-email" class="banner__form-input banner__form-email" type="email" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"/>
+                            <div id="input-email-ziro" class="input-container-dagger"></div>
+                            <label>Enter your E-Mail</label>
+                            <span class="tooltip">Enter correct E-Mail</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input id="input-name" class="banner__form-input banner__form-email" type="text" required pattern="^[а-яА-ЯёЁa-zA-Z]+$"/>
+                            <label>Enter your name</label>
+                            <span class="tooltip">Enter correct name</span>
+                            <div id="input-name-ziro" class="input-container-dagger"></div>		
+                        </div>
+                       
+                        <div class="banner__form-select_wrapper">
+                            <select size="1" required name="form-select" id="form-select" class="banner__form-select">
+                                <option disabled selected value="">Select your country</option>
+                                <option>Россия</option>
+                                <option>США</option>
+                                <option>Франция</option>
+                            </select>
+                        </div>
+
+                        <label class="banner__form-check"><input class="banner__form-checkbox" required type="checkbox" name="checkbox" value="value">I agree with Terms & Conditions</label>
+                        <div class="banner__form-submits">
+                            <input class="banner__form-submit" type="submit" value="Submit">
+                            <a class="banner__form-hyperlink" href="#">Hyperlink</a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="block posts">
+
+                <div class="posts__item-small">
+                    <div class="posts__item post-1">
+                        <div class="posts__item-inner">
+                            <h3>Post header 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                                consequat.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="posts__item-small">
+                    <div class="posts__item post-2 ">
+                        <div class="posts__item-inner">
+                            <h3>Post header 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                                consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item-small">
+                    <div class="posts__item post-3">
+                        <div class="posts__item-inner">
+                            <h3>Post header 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                                consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="posts__item-big">
+                    <div class="posts__item post-4">
+                        <div class="posts__item-inner">
+                            <h3>Post header 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                                consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posts__item-big">
+                    <div class="posts__item post-5">
+                        <div class="posts__item-inner">
+                            <h3>Post header 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                                consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="links">
+                <div class="block links__wrapper">
+                    <div class="links__screen">
+                        <img  src="img/screen.png" alt="screen">
+                    </div>
+                    <div class="links__content">
+                        <h2 class="links__content-title">Title text</h2>
+                        <ol class="links__list">
+                            <li><span>1</span><p>Duis aute irure dolor in reprehenderit1 in voluptate velit</p></li>
+                            <li><span>2</span><p>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p></li>
+                            <li><span>3</span><p>Ut enim ad minim veniam, quis nostrud exercitation</p></li>
+                            <li><span>4</span><p>Et dolore magna aliqua</p></li>
+                            <li><span>5</span><p>Sed do eiusmod tempor2 incididunt ut labore</p></li>
+                            <li><span>6</span><p>Lorem ipsum dolor sit amet3 consectetur adipisicing elit</p></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container footer__wrapper">
+                <ol class="footer__list">
+                    <li><a class="footer__link" href="#"><span>¹</span>Reprehenderit - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</a></li>
+                    <li><a class="footer__link" href="#"><span>²</span>Tempor - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</a></li>
+                    <li><a class="footer__link" href="#"><span>³</span>Amet - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></li>
+                </ol>
+            </div>
+        </footer>
+
+        <div id="modal-window" class="modal-window">
+            <div class="modal-window__shadow closeWindow"></div>
+            <div class="modal-window__content">
+                <h3>External link</h3>
+                <p> Tempor - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Tempor - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Tempor - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="modal-window__submits">
+                    <input class="modal-window__submits-cansel" type="submit" value="Cansel">
+                    <input class="modal-window__submits-accept" type="submit" value="Accept">
+                </div>
+                <div  class="modal-window__close closeWindow"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
